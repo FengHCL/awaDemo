@@ -1,0 +1,17 @@
+{
+  "name" : "default",
+  "dataAdapterId" : "1",
+  "type" : "CustomDataAdapter",
+  "encryptSecureInfo" : false,
+  "config" : {
+    "authservicetype" : "IdentityProvider",
+    "jdbcClass" : "com.mysql.cj.jdbc.Driver",
+    "jdbcUrl" : "jdbc:mysql://dbs.hcl-showcase.com:3306",
+    "userId" : "foundryUser",
+    "password" : "F0unDry@Sh0wCaS3",
+    "advancedSettings" : null,
+    "maxPoolSize" : null,
+    "connectionTimeout" : null
+  },
+  "jsonpath" : false
+}

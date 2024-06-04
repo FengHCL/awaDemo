@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6893b8293e748b0975cf5997cab831e",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "الرئيسية",
+        "icon": "2",
+        "item": "Home",
+        "key": "trabajo"
+    },
+    "id": "itemTrabajo",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u260f91d865343f485e64c74c8ab476f",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMenuItems",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u476b2337a6448b3babfa78ad4ffc1a6",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

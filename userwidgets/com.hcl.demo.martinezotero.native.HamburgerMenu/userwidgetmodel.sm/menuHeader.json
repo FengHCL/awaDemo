@@ -1,0 +1,58 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "7%"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "sa124bb346c741e59ac991dd59fdb7d8",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "iconLeft": "f",
+        "iconRight": "  ",
+        "title": "Alwataneya Auctions"
+    },
+    "id": "menuHeader",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u910a5b4c1f04360ab6c2c35b9db317e",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMenu",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u679351bfc614a54b8b29774bd384db5",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

@@ -1,0 +1,59 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
+    "DNDConfig": null,
+    "_children_": [],
+    "_height_": {
+        "type": "string",
+        "value": "60dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 1,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_percent_": true,
+    "_skin_": "s6893b8293e748b0975cf5997cab831e",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 0,
+    "data": {
+        "description": "اتصل بنا",
+        "icon": "u",
+        "item": "Contact Us",
+        "key": "chat"
+    },
+    "id": "itemChat",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "u393eb90f71c4403992b79f1c07e06a2",
+    "masterType": 1,
+    "name": "kony.ui.UserWidgetInstance",
+    "parent": "flxMenuItems",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainflowhorizontalalignment": false,
+    "sourceUserWidget": "u476b2337a6448b3babfa78ad4ffc1a6",
+    "wType": "UserWidgetInstance",
+    "zindex": 1
+}

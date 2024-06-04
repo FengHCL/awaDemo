@@ -1,0 +1,173 @@
+{
+    "classname": "AuctionItem",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ed196f73b45141eea5e2b9d959e776f4",
+                    "originalPropertyKey": "onClick",
+                    "propertyIndex": 1,
+                    "propertyKey": "onClickCar",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onClickCar",
+                        "srcWidget": "flxGroup",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "u88e59972a7b4af190d9ce3cbf24f7af",
+                    "translateAtInstance": false
+                }
+            ]
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "ebe401fa3b7a4789aa67b1dd6dc20cfe",
+                    "originalPropertyKey": "imageBase64",
+                    "propertyIndex": 7,
+                    "propertyKey": "imageBase64",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "imageBase64",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "uca99ca4d1b04f45abd67466b339cda7",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "b68a099a813e4d1ea8d9f8e6ea1c73a3",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 2,
+                    "propertyKey": "lblVehicleName",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblVehicleName",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblVehicleName",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "ee757a0930604642a0d5f95f31c0af7d"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "bfb25db20993421ca8c2573451bbe8dc",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 3,
+                    "propertyKey": "lblValue",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblValue",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblValue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "gfb3538e914847488b037ee83a328d75"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ad86cf1977034c498cd1b5096dcf8d03",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 4,
+                    "propertyKey": "lblMileage",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblMileage",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblMileage",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "c4f841eec7624acb8f3dcb4fecae6072"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "eae1ad7f1d21432fa68190f0bca610a5",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 5,
+                    "propertyKey": "lblBids",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblBids",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblBids",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "aa9be6ee34d044b2ab191d9bc121dee2"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "aa50a45d28fe412db0455fef6413cbcb",
+                    "originalPropertyKey": "text",
+                    "propertyIndex": 6,
+                    "propertyKey": "lblUID",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "lblUID",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblUIDValue",
+                        "type": "string",
+                        "uiRepresentation": "Label-Textbox",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "f3e09a9287e447539a614afd1eec21bd"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.awa",
+    "version": "1.0.0"
+}

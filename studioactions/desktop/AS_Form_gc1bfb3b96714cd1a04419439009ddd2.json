@@ -1,0 +1,288 @@
+{
+    "AS_Form_gc1bfb3b96714cd1a04419439009ddd2": {
+        "id": "AS_Form_gc1bfb3b96714cd1a04419439009ddd2",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmList",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ebb6db7398f74c119dfe4008524f0684"
+        },
+        "language": "js",
+        "eventType": "onMapping",
+        "actions": [{
+            "id": "LOADING_INDICATOR_e69aa364b69e46deb0a6ae3f30811bab",
+            "selectedOption": "dismiss",
+            "parentId": "INVOKE_SERVICE_a62cec9aac6944af84636786aa9f7c8e",
+            "type": "LOADING_INDICATOR",
+            "callbackType": "Callback",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "ADD_MAPPING_e769c96db73b4b5391cf0b9c236036e9",
+            "type": "ADD_MAPPING",
+            "mappings": {
+                "ME_Mapping_cc6e64138d334029b917d579147aedd5": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "records",
+                        "dataType": "collection",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "rowData",
+                        "widgetId": "segVehicles",
+                        "widgetPath": "this.view.segVehicles",
+                        "widgetType": "Segment",
+                        "dataType": "collection",
+                        "itemId": "frmList",
+                        "collectionId": "masterdata",
+                        "widgetKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_bb60008df5d341779073f7f809b1d0f1": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_bb60008df5d341779073f7f809b1d0f1",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "vehicleName",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"vehicleName\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblVehicleName",
+                        "widgetPath": "this.view.lblVehicleName",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmList",
+                        "parentMappingId": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                        "segmentId": "segVehicles",
+                        "segmentKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "widgetKUID": "b2275133512e4d4fa7277d26e46107c6",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_a1b8416f24054f1882dded7363de3d40": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_a1b8416f24054f1882dded7363de3d40",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "millage",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"millage\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblMileage",
+                        "widgetPath": "this.view.lblMileage",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmList",
+                        "parentMappingId": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                        "segmentId": "segVehicles",
+                        "segmentKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "widgetKUID": "dbc9ed5b965c42d8ad366ad8917698a0",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_e4c6cd4bb3374d7da82f6cc1e443f3e1": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_e4c6cd4bb3374d7da82f6cc1e443f3e1",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "value",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"value\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblValue",
+                        "widgetPath": "this.view.lblValue",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmList",
+                        "parentMappingId": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                        "segmentId": "segVehicles",
+                        "segmentKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "widgetKUID": "g0b2c45403a14cecab2f1b32f56e1dbf",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_f5df80f97402458dbd97a564e4232d25": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_f5df80f97402458dbd97a564e4232d25",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "vehicleID",
+                        "dataType": "string",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"vehicleID\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblID",
+                        "widgetPath": "this.view.lblID",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmList",
+                        "parentMappingId": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                        "segmentId": "segVehicles",
+                        "segmentKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "widgetKUID": "h629b0a5ef5b47cfb2b85e7a251350e7",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                },
+                "ME_Mapping_db6d9e478e624c83a029772a19252242": {
+                    "channel": "desktop",
+                    "id": "ME_Mapping_db6d9e478e624c83a029772a19252242",
+                    "type": "MAPPING",
+                    "callbackType": null,
+                    "rectified": true,
+                    "source": {
+                        "type": "Services",
+                        "propertyName": "bids",
+                        "dataType": "number",
+                        "collectionId": "records",
+                        "propertyPath": "[\"records\"][0][\"bids\"]",
+                        "forkedPlatform": "all",
+                        "serviceconfig": {
+                            "servicename": "awaObject",
+                            "type": "objectsvcs",
+                            "objectname": "vehicle",
+                            "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                            "methodname": "get"
+                        }
+                    },
+                    "target": {
+                        "type": "Forms",
+                        "propertyName": "text",
+                        "widgetId": "lblBids",
+                        "widgetPath": "this.view.lblBids",
+                        "widgetType": "Label",
+                        "dataType": "string",
+                        "templateType": "rowTemplate",
+                        "itemId": "frmList",
+                        "parentMappingId": "ME_Mapping_cc6e64138d334029b917d579147aedd5",
+                        "segmentId": "segVehicles",
+                        "segmentKUID": "g22d666dffef4e1baefa45c992336f0d",
+                        "widgetKUID": "afee783df7e14a078a024bb7a559d11e",
+                        "itemKUID": "ebb6db7398f74c119dfe4008524f0684",
+                        "forkedPlatform": "all"
+                    }
+                }
+            },
+            "mappingsOrder": ["ME_Mapping_cc6e64138d334029b917d579147aedd5", "ME_Mapping_bb60008df5d341779073f7f809b1d0f1", "ME_Mapping_a1b8416f24054f1882dded7363de3d40", "ME_Mapping_e4c6cd4bb3374d7da82f6cc1e443f3e1", "ME_Mapping_f5df80f97402458dbd97a564e4232d25", "ME_Mapping_db6d9e478e624c83a029772a19252242"],
+            "parentId": "INVOKE_SERVICE_a62cec9aac6944af84636786aa9f7c8e",
+            "callbackType": "Callback",
+            "enableMappingEditor": true
+        }, {
+            "id": "LOADING_INDICATOR_g50e0d976f704e0cb95a3eae147cabbb",
+            "selectedOption": "show",
+            "type": "LOADING_INDICATOR",
+            "skin": "none",
+            "position": "constants.LOADING_SCREEN_POSITION_FULL_SCREEN",
+            "isBlocked": "true",
+            "showProgressIndicator": "true"
+        }, {
+            "id": "INVOKE_SERVICE_a62cec9aac6944af84636786aa9f7c8e",
+            "type": "INVOKE_OBJECT_SERVICE",
+            "inputparams": null,
+            "httpheaders": null,
+            "httpconfigs": null,
+            "isasynchronous": null,
+            "isoffline": null,
+            "isobject": true,
+            "mappings": {},
+            "mappingsOrder": [],
+            "serviceconfig": {
+                "servicename": "awaObject",
+                "type": "objectsvcs",
+                "objectname": "vehicle",
+                "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+                "methodname": "get"
+            },
+            "enableMappingEditor": true
+        }]
+    }
+}

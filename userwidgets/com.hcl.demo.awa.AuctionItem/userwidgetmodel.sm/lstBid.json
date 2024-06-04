@@ -1,0 +1,97 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "30dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "",
+    "_skin_": "s9acaadacc3c4fe984054f4a35e808a1",
+    "_top_": {
+        "type": "string",
+        "value": "5dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "100dp"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "dropdownimage": "red.png",
+    "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
+    "groupcells": false,
+    "i18n_placeholder": null,
+    "id": "lstBid",
+    "info": null,
+    "inputAccessoryViewType": 4,
+    "iphone": {
+        "psp": {
+            "i18n_placeholder": null
+        },
+        "viewType": 0
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g5bded5fbaa94136a1690d5cdd30782c",
+    "masterdata": [
+        [
+            "BID",
+            "Select Bid"
+        ],
+        [
+            "200",
+            "200"
+        ],
+        [
+            "500",
+            "500"
+        ],
+        [
+            "1000",
+            "1,000"
+        ],
+        [
+            "3000",
+            "3,000"
+        ],
+        [
+            "5000",
+            "5,000"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxButtons",
+    "pf": "userwidgetmodel",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkeys": null,
+    "selectedkeyvalue": null,
+    "selectedkeyvalues": null,
+    "size": 18,
+    "untickedimage": "redtriangle.png",
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

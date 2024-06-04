@@ -1,0 +1,76 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "saeb6fe45fa84fb2a2a223d73d2df4f7",
+    "_top_": {
+        "type": "string",
+        "value": "2%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "80%"
+    },
+    "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
+    "groupcells": false,
+    "id": "lstMake",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "j33a4b2d6f38485d81a6c1c9f9d750bb",
+    "masterdata": [
+        [
+            "Make",
+            "Make",
+            "lstMake"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxAdvanceSearch",
+    "pf": "frmList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "Make",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "Make",
+        "Make"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

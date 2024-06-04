@@ -1,0 +1,57 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_skin_": "sbd510819d6148ca8933a6e01bb89fdb",
+    "_text_": "Button",
+    "_top_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "30%"
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerId": true,
+    "containerweight": 100,
+    "contentalignment": 5,
+    "displaytext": true,
+    "focusskin": "sc821f5e12c94b7ba3afaa61fdc3d375",
+    "id": "btnSelectBid",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "f8b75eb84c984f4bb042023d6e1bac8d",
+    "name": "kony.ui.Button",
+    "parent": "flxButtons",
+    "pf": "tempVehicles",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "texti18n": "btnSelectBid",
+    "wType": "Button",
+    "zindex": 1
+}

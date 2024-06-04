@@ -1,0 +1,12 @@
+{
+  "icon" : "icon.png",
+  "subType" : "customapp",
+  "description" : "awaDemo",
+  "version" : "1.0",
+  "objectSvcs" : [ {
+    "name" : "awaObject",
+    "version" : "1.0",
+    "etag" : "471d1c2a-7a41-40b8-8de0-93c8d3d8cfc8"
+  } ],
+  "identitySvcConf" : "{\"session_idle_timeout_mins\":20,\"session_max_duration_mins\":360,\"show_security_attributes\":false,\"is_integrity_enabled\":false,\"auto_extend\":true}"
+}

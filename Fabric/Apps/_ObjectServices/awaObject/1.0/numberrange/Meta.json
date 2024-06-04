@@ -1,0 +1,38 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "numberrange",
+      "qualifiedName" : "awa.numberrange",
+      "metadataformatterobject" : "{\"displayName\":\"numberrange\",\"qualifiedName\":\"awa.numberrange\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"numberrange\",\"schemaName\":\"awa\",\"tableName\":\"numberrange\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "numberrange",
+      "qualifiedName" : "awa.numberrange",
+      "metadataformatterobject" : "{\"displayName\":\"numberrange\",\"qualifiedName\":\"awa.numberrange\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"numberrange\",\"schemaName\":\"awa\",\"tableName\":\"numberrange\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "rangeID",
+    "targetField" : "rangeID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "picNum",
+    "targetField" : "picNum",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicleNum",
+    "targetField" : "vehicleNum",
+    "type" : "request_response"
+  } ]
+}

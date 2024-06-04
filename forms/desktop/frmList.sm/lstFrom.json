@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizListBox",
+    "DNDConfig": null,
+    "_height_": {
+        "type": "string",
+        "value": "40dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_padding_": [
+        3,
+        0,
+        0,
+        0
+    ],
+    "_placeholder_": "Please Select",
+    "_skin_": "saeb6fe45fa84fb2a2a223d73d2df4f7",
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "50%"
+    },
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "contentalignment": 4,
+    "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
+    "groupcells": false,
+    "id": "lstFrom",
+    "info": null,
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "af33f9f107634e8f9519103008851b92",
+    "masterdata": [
+        [
+            "From",
+            "From",
+            "lstFrom"
+        ]
+    ],
+    "name": "kony.ui.ListBox",
+    "parent": "flxValue",
+    "pf": "frmList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "selectedkey": "From",
+    "selectedkeys": null,
+    "selectedkeyvalue": [
+        "From",
+        "From"
+    ],
+    "selectedkeyvalues": null,
+    "size": 18,
+    "viewconfig": {
+        "toggleViewConfig": {
+            "viewStyle": 0
+        }
+    },
+    "viewtype": 0,
+    "wType": "ListBox",
+    "zindex": 1
+}

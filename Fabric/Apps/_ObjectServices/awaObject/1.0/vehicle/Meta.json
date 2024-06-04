@@ -1,0 +1,142 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "vehicle",
+      "qualifiedName" : "awa.vehicle",
+      "metadataformatterobject" : "{\"displayName\":\"vehicle\",\"qualifiedName\":\"awa.vehicle\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehicle\",\"schemaName\":\"awa\",\"tableName\":\"vehicle\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "vehicle",
+      "qualifiedName" : "awa.vehicle",
+      "metadataformatterobject" : "{\"displayName\":\"vehicle\",\"qualifiedName\":\"awa.vehicle\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehicle\",\"schemaName\":\"awa\",\"tableName\":\"vehicle\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "note",
+    "targetField" : "note",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicleName",
+    "targetField" : "vehicleName",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "year",
+    "targetField" : "year",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "city",
+    "targetField" : "city",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "fuel",
+    "targetField" : "fuel",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "latitude",
+    "targetField" : "latitude",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "description",
+    "targetField" : "description",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "adminFee",
+    "targetField" : "adminFee",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "media",
+    "targetField" : "media",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "type",
+    "targetField" : "type",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "general",
+    "targetField" : "general",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "transmission",
+    "targetField" : "transmission",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "taxAdded",
+    "targetField" : "taxAdded",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "docDelivery",
+    "targetField" : "docDelivery",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "model",
+    "targetField" : "model",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "power",
+    "targetField" : "power",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "make",
+    "targetField" : "make",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "value",
+    "targetField" : "value",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "longitude",
+    "targetField" : "longitude",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "address",
+    "targetField" : "address",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "created",
+    "targetField" : "created",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "chassis",
+    "targetField" : "chassis",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "analysis",
+    "targetField" : "analysis",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "cylinders",
+    "targetField" : "cylinders",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "doors",
+    "targetField" : "doors",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "colour",
+    "targetField" : "colour",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "bids",
+    "targetField" : "bids",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "vehicleID",
+    "targetField" : "vehicleID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "millage",
+    "targetField" : "millage",
+    "type" : "request_response"
+  } ]
+}

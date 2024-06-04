@@ -1,0 +1,65 @@
+{
+    "classname": "HamburgerMenu",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "j474893d2c0e426496586a6a9274bc41",
+                    "paramList": [
+                        {
+                            "name": "open"
+                        },
+                        {
+                            "name": "skipAnimation"
+                        }
+                    ],
+                    "propertyKey": "toggle",
+                    "pw": {
+                        "displayName": "toggle",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0f59e7fad5149589a6931fc32135e33",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "d4067618f2a246468abd4af46bb2b307",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onItemSelected",
+                    "pw": {
+                        "displayName": "onItemSelected",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "u0f59e7fad5149589a6931fc32135e33",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.martinezotero.native",
+    "version": "1.0.0"
+}

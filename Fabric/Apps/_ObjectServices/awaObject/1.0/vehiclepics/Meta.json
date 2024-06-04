@@ -1,0 +1,38 @@
+{
+  "type" : "lob",
+  "custom" : false,
+  "junction" : false,
+  "customizable" : false,
+  "verbs" : {
+    "get" : "getMapping",
+    "update" : "updateMapping",
+    "create" : "createMapping",
+    "delete" : "deleteMapping"
+  },
+  "entityProperties" : {
+    "BatchMode" : "pagination",
+    "backendMeta" : {
+      "backendObjectName" : "vehiclepics",
+      "qualifiedName" : "awa.vehiclepics",
+      "metadataformatterobject" : "{\"displayName\":\"vehiclepics\",\"qualifiedName\":\"awa.vehiclepics\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehiclepics\",\"schemaName\":\"awa\",\"tableName\":\"vehiclepics\"}"
+    },
+    "designTimeBackendMeta" : {
+      "backendObjectName" : "vehiclepics",
+      "qualifiedName" : "awa.vehiclepics",
+      "metadataformatterobject" : "{\"displayName\":\"vehiclepics\",\"qualifiedName\":\"awa.vehiclepics\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\",\"name\":\"vehiclepics\",\"schemaName\":\"awa\",\"tableName\":\"vehiclepics\"}"
+    }
+  },
+  "commonMappings" : [ {
+    "sourceFieldName" : "vehicleID",
+    "targetField" : "vehicleID",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "pic",
+    "targetField" : "pic",
+    "type" : "request_response"
+  }, {
+    "sourceFieldName" : "picID",
+    "targetField" : "picID",
+    "type" : "request_response"
+  } ]
+}

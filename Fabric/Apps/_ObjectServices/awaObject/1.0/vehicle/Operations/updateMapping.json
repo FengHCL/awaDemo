@@ -1,0 +1,250 @@
+{
+  "operationConfig" : {
+    "name" : "updatevehicle5734",
+    "type" : "MappedToBackend",
+    "cachable" : false,
+    "smsEnabled" : false,
+    "security" : "authorized_app_user",
+    "responseEncoding" : "UTF-8",
+    "httpMethod" : "GET",
+    "decodeResponseBody" : false,
+    "referencingEndpoint" : "default",
+    "inputs" : [ {
+      "id" : "vehicleID",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "vehicleName",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "type",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "make",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "model",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "year",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "millage",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "created",
+      "scope" : "request",
+      "dataType" : "date",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "address",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "city",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "longitude",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "latitude",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "value",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "bids",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "chassis",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "taxAdded",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "adminFee",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "docDelivery",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "general",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "media",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "fuel",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "power",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "colour",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "cylinders",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "doors",
+      "scope" : "request",
+      "dataType" : "number",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "transmission",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "note",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "description",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    }, {
+      "id" : "analysis",
+      "scope" : "request",
+      "dataType" : "string",
+      "encode" : true,
+      "passNull" : false,
+      "isExtended" : false
+    } ],
+    "applyCommonMapping" : true,
+    "applyRequestCommonMapping" : true,
+    "applyResponseCommonMapping" : true,
+    "entityMetadata" : "{\"entityAttributeTypeList\":[{\"name\":\"vehicleID\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":false,\"primary\":true,\"softDelete\":false,\"lastModified\":false},{\"name\":\"vehicleName\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"type\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"make\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"model\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"year\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"millage\",\"jdbcType\":-5,\"columnTypeName\":\"BIGINT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"created\",\"jdbcType\":93,\"columnTypeName\":\"DATETIME\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"address\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"city\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"longitude\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"latitude\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"value\",\"jdbcType\":-5,\"columnTypeName\":\"BIGINT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"bids\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"chassis\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"taxAdded\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"adminFee\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"docDelivery\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"general\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"media\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"fuel\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"power\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"colour\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"cylinders\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"doors\",\"jdbcType\":4,\"columnTypeName\":\"INT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"transmission\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"note\",\"jdbcType\":-1,\"columnTypeName\":\"LONGTEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"description\",\"jdbcType\":-1,\"columnTypeName\":\"LONGTEXT\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false},{\"name\":\"analysis\",\"jdbcType\":12,\"columnTypeName\":\"VARCHAR\",\"columnDecimalDigits\":0,\"autoGenerated\":false,\"creatable\":true,\"updatable\":true,\"primary\":false,\"softDelete\":false,\"lastModified\":false}],\"relationshipTypeList\":[],\"name\":\"vehicle\",\"schemaName\":\"awa\",\"entityType\":\"com.kony.rdbms.metadata.model.AnnotatedTable\"}",
+    "opcode" : "update",
+    "backendMeta" : {
+      "qualifiedObjectName" : "awa.vehicle",
+      "backendObjectName" : "vehicle"
+    },
+    "relationshipHierarchyMapping" : {
+      "children" : [ ],
+      "name" : "vehicle",
+      "actions" : {
+        "create" : true,
+        "update" : true,
+        "delete" : true
+      },
+      "selected" : true
+    },
+    "requestXmlMappingOverride" : false,
+    "responseXmlMappingOverride" : false,
+    "mapperData" : [ {
+      "name" : "base mapper1",
+      "order" : 1,
+      "requestXmlMappingOverride" : false,
+      "responseXmlMappingOverride" : false,
+      "disabled" : false,
+      "applyCommonMapping" : true,
+      "applyRequestCommonMapping" : true,
+      "applyResponseCommonMapping" : true
+    } ]
+  },
+  "enableFrontendUrl" : false,
+  "customVerb" : false
+}

@@ -1,0 +1,23 @@
+{
+    "awaObject_vehiclepics": {
+        "servicename": "awaObject",
+        "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+        "type": "objectsvcs",
+        "objectname": "vehiclepics",
+        "objectid": "457255"
+    },
+    "awaObject_numberrange": {
+        "servicename": "awaObject",
+        "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+        "type": "objectsvcs",
+        "objectname": "numberrange",
+        "objectid": "457265"
+    },
+    "awaObject_vehicle": {
+        "servicename": "awaObject",
+        "serviceid": "ba8fe6a3-1603-4d49-b3b0-648864df9ce8",
+        "type": "objectsvcs",
+        "objectname": "vehicle",
+        "objectid": "457275"
+    }
+}

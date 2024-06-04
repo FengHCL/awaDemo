@@ -1,0 +1,688 @@
+{
+    "@class": "com.kony.gen.viz.model.container.KVizSegment2",
+    "DNDConfig": null,
+    "_data_": [
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        },
+        {
+            "btnBidNow": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnBidNow",
+                "text": "Button"
+            },
+            "btnSelectBid": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "btnSelectBid",
+                "text": "Button"
+            },
+            "imgLighting": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "lighting.png"
+            },
+            "imgLike": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "heart.png"
+            },
+            "imgPic": {
+                "@class": "com.viz.ide.model.segment.ImageSegmentData",
+                "src": "imagedrag.png"
+            },
+            "lblBids": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblID": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblTimeRemaining": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "i18nkey": "lblTimeRemaining",
+                "text": "Label"
+            },
+            "lblTimeValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblValue": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "1000"
+            },
+            "lblVehicleName": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            },
+            "lblViewMileage": {
+                "@class": "com.viz.ide.model.segment.SimpleTextSegmentData",
+                "text": "Label"
+            }
+        }
+    ],
+    "_height_": {
+        "type": "string",
+        "value": "92%"
+    },
+    "_indicator_": "none",
+    "_left_": {
+        "type": "string",
+        "value": "1%"
+    },
+    "_margin_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_orientation_": 2,
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_top_": {
+        "type": "string",
+        "value": "0%"
+    },
+    "_width_": {
+        "type": "string",
+        "value": "98%"
+    },
+    "autogrowmode": 0,
+    "canUpdateUI": true,
+    "containerweight": 100,
+    "counter": "09",
+    "focusedindex": null,
+    "focuseditem": null,
+    "groupcells": false,
+    "hasSections": false,
+    "id": "segVehicles",
+    "info": null,
+    "ipad": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iphone": {
+        "psp": {
+            "indicator": "rowselect"
+        }
+    },
+    "iscustomlayout": false,
+    "isvisible": true,
+    "kuid": "g22d666dffef4e1baefa45c992336f0d",
+    "masterdata": {},
+    "name": "kony.ui.SegmentedUI2",
+    "needpageindicator": true,
+    "pageoffdotimage": "pageoffdot.png",
+    "pageondotimage": "pageondot.png",
+    "paginationconfig": {
+        "position": "bottom"
+    },
+    "parent": "flxList",
+    "pf": "frmList",
+    "retaincontentalignment": false,
+    "retainflexpositionproperties": false,
+    "retainselection": false,
+    "rowTemplateId": "d48db9ce20b743d695887eabbb1367a4",
+    "rowcounter": 9,
+    "rowfocusskin": "s11f491e0a154736a335ff77255263ad",
+    "rowskin": "s58af163f4504512b93a5c7dd2deb18e",
+    "rowtemplate": "flxVehicles",
+    "screenlevelwidget": false,
+    "seccounter": 0,
+    "sectionheaderskin": "s50478578c9242978b474dd36e77c542",
+    "selectedRows": null,
+    "selectedState": false,
+    "selectedindex": null,
+    "selectedindices": null,
+    "selecteditems": null,
+    "selectedsectionindex": 0,
+    "selectionbehavior": "default",
+    "separatorcolor": "aaaaaa00",
+    "separatorrequired": true,
+    "separatorthickness": 1,
+    "showscrollbars": false,
+    "viewtype": "tableview",
+    "vizProps": {},
+    "wType": "Segment",
+    "widgetalignment": 5,
+    "widgetdatamap": {
+        "btnBidNow": "btnBidNow",
+        "btnSelectBid": "btnSelectBid",
+        "flxButtons": "flxButtons",
+        "flxID": "flxID",
+        "flxMillage": "flxMillage",
+        "flxTime": "flxTime",
+        "flxVehicleBottom": "flxVehicleBottom",
+        "flxVehicleTop": "flxVehicleTop",
+        "flxVehicles": "flxVehicles",
+        "imgLighting": "imgLighting",
+        "imgLike": "imgLike",
+        "imgPic": "imgPic",
+        "lblBids": "lblBids",
+        "lblID": "lblID",
+        "lblMileage": "lblMileage",
+        "lblTimeRemaining": "lblTimeRemaining",
+        "lblTimeValue": "lblTimeValue",
+        "lblValue": "lblValue",
+        "lblVehicleName": "lblVehicleName",
+        "lblViewMileage": "lblViewMileage"
+    },
+    "zindex": 1
+}
