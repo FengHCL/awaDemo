@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "80dp"
     },
     "_left_": {
         "type": "string",
@@ -24,7 +24,7 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6893b8293e748b0975cf5997cab831e",
+    "_skin_": "s56106400e4d4e628ffe3f7d33298045",
     "_top_": {
         "type": "string",
         "value": "0dp"
@@ -36,24 +36,21 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "description": "البيع المباشر",
-        "icon": "z",
-        "item": "Direct Sale",
-        "key": "informes"
+        "showIconRight": false
     },
-    "id": "itemInformes",
+    "id": "cmpSimpleHeader",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ua4cdc68941c466fb5e7065f36ad9702",
+    "kuid": "ha85ae3ffb0445dca2b8973d364ac99e",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMenuItems",
-    "pf": "userwidgetmodel",
+    "parent": "frmDetails",
+    "pf": "frmDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "u476b2337a6448b3babfa78ad4ffc1a6",
+    "sourceUserWidget": "uea7ad39bac9412992c1cd5a2b9533f2",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }

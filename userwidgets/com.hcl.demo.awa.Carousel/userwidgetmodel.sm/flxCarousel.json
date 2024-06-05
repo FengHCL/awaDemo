@@ -2,7 +2,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "93%"
+        "value": "50dp"
     },
     "_left_": {
         "type": "string",
@@ -22,45 +22,46 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6893b8293e748b0975cf5997cab831e",
+    "_skin_": "s40e08999684415f943052bbfd404564",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "200dp"
     },
     "_width_": {
         "type": "string",
         "value": "100%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "allowhorizontalbounce": false,
+    "allowverticalbounce": true,
+    "bounces": false,
     "canUpdateUI": true,
-    "children": [
-        "itemHome",
-        "itemOnlineAuction",
-        "itemDirectSale",
-        "itemAuctionGuide",
-        "itemAbout",
-        "itemContactUs",
-        "itemMyAccount"
-    ],
-    "clipbounds": true,
+    "children": [],
+    "clipbounds": false,
     "containerweight": 100,
+    "decelerat": false,
+    "dragg": false,
     "enablescrolling": true,
-    "id": "flxMenuItems",
+    "horizontalscrollindicator": true,
+    "id": "flxCarousel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u36a8d457d304fc091a141a01972aab3",
-    "layouttype": 4,
-    "name": "kony.ui.FlexContainer",
-    "parent": "flxMenu",
+    "kuid": "e239eb9c09da40029c84f9811b0220f4",
+    "layouttype": 3,
+    "name": "kony.ui.FlexScrollContainer",
+    "pagingenabled": false,
+    "parent": "Carousel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
+    "scrolldirection": 1,
     "snapgridsize": 10,
     "snaptogrid": true,
-    "wType": "FlexContainer",
+    "track": false,
+    "verticalscrollindicator": true,
+    "wType": "FlexScrollContainer",
     "widgetalignment": 1,
     "zindex": 1
 }

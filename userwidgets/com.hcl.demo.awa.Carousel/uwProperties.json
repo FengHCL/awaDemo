@@ -1,0 +1,74 @@
+{
+    "classname": "Carousel",
+    "definitions": {
+        "apis": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "dc7db0c44d2440ebb5506faaa11b7009",
+                    "paramList": [],
+                    "propertyKey": "add",
+                    "pw": {
+                        "displayName": "add",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7a1c3852e6f4258a24a7549b40d02ce",
+                    "type": "event"
+                },
+                {
+                    "group": "General",
+                    "kuid": "jce0d6ded0494a8998d31d234255ef88",
+                    "paramList": [],
+                    "propertyKey": "removeAll",
+                    "pw": {
+                        "displayName": "removeAll",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "e7a1c3852e6f4258a24a7549b40d02ce",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [
+                "General"
+            ],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "i332fed6d4324f3ea7e7208a7ed64b86",
+                    "originalPropertyKey": "base64",
+                    "propertyIndex": 1,
+                    "propertyKey": "base64",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "base64",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "e7a1c3852e6f4258a24a7549b40d02ce",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.awa",
+    "version": "1.0.0"
+}

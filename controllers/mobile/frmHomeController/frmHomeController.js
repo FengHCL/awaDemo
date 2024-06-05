@@ -1,7 +1,6 @@
 define({ 
 
   cars: [],
-  pics: [], 
 
   onViewCreated(){
     this.view.init = () => {
@@ -15,14 +14,20 @@ define({
   },
 
   initData(){
+    this.view.flxCars.removeAll();
+
+    voltmx.application.showLoadingScreen(null, '', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, 
+                                         true, true, {});
+
     const objSvc = VMXFoundry.getObjectService('awaObject', {access: 'online'});
     const vehicleObj = new voltmx.sdk.dto.DataObject("vehicle");
     objSvc.fetch({dataObject: vehicleObj}, (responsevehicles) => {
-      this.cars = [...responsevehicles.records];
+      globals.cars = [...responsevehicles.records];
       const picObj = new voltmx.sdk.dto.DataObject("vehiclepics");
       objSvc.fetch({dataObject: picObj}, (responsePics) => {
-        this.pics = [...responsePics.records];
+        globals.pics = [...responsePics.records];
         this.initWidgets();
+        voltmx.application.dismissLoadingScreen();
       }, (errorPics) => {
         voltmx.application.dismissLoadingScreen();
         alert(JSON.stringify(errorPics));
@@ -34,19 +39,27 @@ define({
   },
 
   initWidgets(){
-    this.view.flxCars.removeAll();
-    this.cars.forEach((car, index) => {
+    globals.cars.forEach((car, index) => {
       const auctionItem = new com.hcl.demo.awa.AuctionItem({
         id: `item${index}${new Date().getTime()}`
       }, {}, {});
-      auctionItem.imageBase64 = this.pics[index].pic;
-      auctionItem.vehicleName = car.vehicleName;
-      auctionItem.value = formatValue(car.value.toString());
-      auctionItem.bids = car.bids;
-      auctionItem.mileage = car.millage;
-      auctionItem.uid = car.vehicleID;
+      const vehicleName = car.vehicleName;
+      const value = formatValue(car.value.toString());
+      const bids = car.bids;
+      const mileage = car.mileage;
+      const uid = car.vehicleID;
+      const imageBase64 = globals.getPicsForCar(uid)[0].pic;//globals.pics[index].pic;
 
-      auctionItem.onClickCar = () => new voltmx.mvc.Navigation('frmDetails').navigate(car.vehicleID);
+      auctionItem.imageBase64 = imageBase64;
+      auctionItem.vehicleName = vehicleName;
+      auctionItem.value = value;
+      auctionItem.bids = bids;
+      auctionItem.mileage = mileage;
+      auctionItem.uid = uid;
+
+      auctionItem.onClickCar = () => new voltmx.mvc.Navigation('frmDetails').navigate({
+        uid
+      });
       this.view.flxCars.add(auctionItem);
     });
     this.view.flxCars.forceLayout();

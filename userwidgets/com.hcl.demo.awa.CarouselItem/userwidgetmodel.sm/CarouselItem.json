@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "93%"
+        "value": "40dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_margin_": [
         0,
@@ -22,38 +22,32 @@
         0
     ],
     "_percent_": true,
-    "_skin_": "s6893b8293e748b0975cf5997cab831e",
+    "_skin_": "saae231a07854b659f7c5defeee3f687",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "60dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "itemHome",
-        "itemOnlineAuction",
-        "itemDirectSale",
-        "itemAuctionGuide",
-        "itemAbout",
-        "itemContactUs",
-        "itemMyAccount"
+        "imgCarouselItem"
     ],
-    "clipbounds": true,
+    "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxMenuItems",
+    "id": "CarouselItem",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u36a8d457d304fc091a141a01972aab3",
-    "layouttype": 4,
+    "kuid": "b3ac00f3ee5f46d1968e6c1ab8c989f9",
+    "layouttype": 2,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxMenu",
+    "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -36,16 +36,16 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "description": "المزاد الألكتروني",
-        "icon": "x",
-        "item": "Online Auction",
-        "key": "firmar"
+        "description": "البيع المباشر",
+        "icon": "z",
+        "item": "Direct Sale",
+        "key": "directSale"
     },
-    "id": "itemFirmar",
+    "id": "itemDirectSale",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "udfcaada37c646f3ac549bd23705098f",
+    "kuid": "ua4cdc68941c466fb5e7065f36ad9702",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxMenuItems",

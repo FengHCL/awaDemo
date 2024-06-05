@@ -119,6 +119,27 @@
                         "wType": "Label"
                     },
                     "srcWgtKUID": "u8b0e86e9706409e99720995e0b48e36"
+                },
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "hdbb771a58f14cc7bed3a4dd5e450025",
+                    "originalPropertyKey": "isVisible",
+                    "propertyIndex": 4,
+                    "propertyKey": "showIconRight",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "look",
+                        "dependencyConditions": {},
+                        "dependentKeysKUIDs": null,
+                        "displayName": "showIconRight",
+                        "isHiddenInTool": false,
+                        "srcWidget": "lblRight",
+                        "type": "boolean",
+                        "uiRepresentation": "Label-Radiobuttongroup",
+                        "wType": "Label"
+                    },
+                    "srcWgtKUID": "u0ecc66ca71f465d8dd653875442703c"
                 }
             ]
         },

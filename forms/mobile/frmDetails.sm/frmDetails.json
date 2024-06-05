@@ -32,7 +32,11 @@
         }
     },
     "canUpdateUI": true,
-    "children": [],
+    "children": [
+        "cmpSimpleHeader",
+        "flxContent",
+        "cmpHamburgerMenu"
+    ],
     "containerweight": 100,
     "controllerInfo": {
         "default": {

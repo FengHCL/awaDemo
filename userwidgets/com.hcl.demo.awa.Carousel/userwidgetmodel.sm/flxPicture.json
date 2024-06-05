@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizUserWidget",
     "DNDConfig": null,
-    "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "200dp"
     },
     "_left_": {
         "type": "string",
@@ -16,7 +14,7 @@
         0,
         0
     ],
-    "_orientation_": 1,
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
@@ -33,27 +31,30 @@
         "type": "string",
         "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
-    "containerweight": 0,
-    "data": {
-        "description": " دليل المزاد",
-        "icon": "1",
-        "item": "Auction guide",
-        "key": "repasos"
-    },
-    "id": "itemRepasos",
+    "children": [
+        "imgPicture"
+    ],
+    "clipbounds": false,
+    "containerweight": 100,
+    "enablescrolling": true,
+    "id": "flxPicture",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "ufe2d11088c64baba0dd2e5cfa8857af",
-    "masterType": 1,
-    "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMenuItems",
+    "kuid": "fc7e06633ef440a88af58537714d96df",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "Carousel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "u476b2337a6448b3babfa78ad4ffc1a6",
-    "wType": "UserWidgetInstance",
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

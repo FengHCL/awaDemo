@@ -1,0 +1,78 @@
+{
+    "classname": "CarouselItem",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "b093b4a6003442ec97fc3af59cac9679",
+                    "paramList": [],
+                    "propertyIndex": 1,
+                    "propertyKey": "onSelect",
+                    "pw": {
+                        "displayName": "onSelect",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "b3ac00f3ee5f46d1968e6c1ab8c989f9",
+                    "type": "event"
+                }
+            ],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "db4cc12e290b4f3ba03f77948f238b68",
+                    "originalPropertyKey": "base64",
+                    "propertyIndex": 1,
+                    "propertyKey": "base64",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "base64",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "b3ac00f3ee5f46d1968e6c1ab8c989f9",
+                    "type": "string",
+                    "value": ""
+                },
+                {
+                    "access": "Write",
+                    "defaultValue": false,
+                    "group": "General",
+                    "kuid": "ef2a682f52514be7a7232f68ce09a270",
+                    "originalPropertyKey": "selected",
+                    "propertyIndex": 2,
+                    "propertyKey": "selected",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selected",
+                        "uiRepresentation": "Label-Radiobuttongroup"
+                    },
+                    "srcWgtKUID": "b3ac00f3ee5f46d1968e6c1ab8c989f9",
+                    "type": "boolean",
+                    "value": "true/false"
+                }
+            ],
+            "passthrough": []
+        },
+        "widgets": {
+            "expose": [],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.hcl.demo.awa",
+    "version": "1.0.0"
+}

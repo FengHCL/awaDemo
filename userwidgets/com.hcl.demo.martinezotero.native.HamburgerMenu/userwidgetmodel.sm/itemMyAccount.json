@@ -7,8 +7,8 @@
         "value": "60dp"
     },
     "_left_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_margin_": [
         0,
@@ -26,8 +26,8 @@
     "_percent_": true,
     "_skin_": "s6893b8293e748b0975cf5997cab831e",
     "_top_": {
-        "type": "string",
-        "value": "0dp"
+        "type": "number",
+        "value": "0"
     },
     "_width_": {
         "type": "string",
@@ -36,16 +36,16 @@
     "canUpdateUI": true,
     "containerweight": 0,
     "data": {
-        "description": "حول الوطنية",
-        "icon": "y",
-        "item": " About Wataneya",
-        "key": "proyectos"
+        "description": "حسابي",
+        "icon": "4",
+        "item": "My Account",
+        "key": "myAccount"
     },
-    "id": "itemProyectos",
+    "id": "itemMyAccount",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u3d80915e61441428c49389b35e7ac07",
+    "kuid": "u947694742694194bed4d7d82c621dbb",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
     "parent": "flxMenuItems",

@@ -4,7 +4,7 @@
     "_children_": [],
     "_height_": {
         "type": "string",
-        "value": "60dp"
+        "value": "250dp"
     },
     "_left_": {
         "type": "string",
@@ -27,7 +27,7 @@
     "_skin_": "s6893b8293e748b0975cf5997cab831e",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "0dp"
     },
     "_width_": {
         "type": "string",
@@ -35,25 +35,20 @@
     },
     "canUpdateUI": true,
     "containerweight": 0,
-    "data": {
-        "description": "الرئيسية",
-        "icon": "2",
-        "item": "Home",
-        "key": "trabajo"
-    },
-    "id": "itemTrabajo",
+    "data": {},
+    "id": "cmpCarousel",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "u260f91d865343f485e64c74c8ab476f",
+    "kuid": "a3730b473af74de7a805f4cd5ee5a8de",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
-    "parent": "flxMenuItems",
-    "pf": "userwidgetmodel",
+    "parent": "flxContent",
+    "pf": "frmDetails",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainflowhorizontalalignment": false,
-    "sourceUserWidget": "u476b2337a6448b3babfa78ad4ffc1a6",
+    "sourceUserWidget": "e7a1c3852e6f4258a24a7549b40d02ce",
     "wType": "UserWidgetInstance",
     "zindex": 1
 }
