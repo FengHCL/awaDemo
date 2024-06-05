@@ -83,33 +83,6 @@
         },
         "Android": {
             "4.0": {
-                "Kony_FileStorage-Android-4.0": {
-                    "title": "Kony_FileStorage",
-                    "platform": "Android",
-                    "os": "4.0",
-                    "ci": true,
-                    "isDefault": true,
-                    "filename": "Kony_FileStorage-Android-4.0.zip",
-                    "enable": true
-                },
-                "Kony_SDKCommons-Android-4.0": {
-                    "title": "Kony_SDKCommons",
-                    "platform": "Android",
-                    "os": "4.0",
-                    "ci": true,
-                    "isDefault": true,
-                    "filename": "Kony_SDKCommons-Android-4.0.zip",
-                    "enable": true
-                },
-                "Kony_SyncV2-Android-4.0": {
-                    "title": "Kony_SyncV2",
-                    "platform": "Android",
-                    "os": "4.0",
-                    "ci": true,
-                    "isDefault": true,
-                    "filename": "Kony_SyncV2-Android-4.0.zip",
-                    "enable": true
-                },
                 "android.speech-Android-4.0": {
                     "title": "android.speech",
                     "platform": "Android",
@@ -180,6 +153,33 @@
                     "os": "4.0",
                     "isDefault": false,
                     "filename": "android.content-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_FileStorage-Android-4.0": {
+                    "title": "Kony_FileStorage",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_FileStorage-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SDKCommons-Android-4.0": {
+                    "title": "Kony_SDKCommons",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SDKCommons-Android-4.0.zip",
+                    "enable": true
+                },
+                "Kony_SyncV2-Android-4.0": {
+                    "title": "Kony_SyncV2",
+                    "platform": "Android",
+                    "os": "4.0",
+                    "ci": true,
+                    "isDefault": true,
+                    "filename": "Kony_SyncV2-Android-4.0.zip",
                     "enable": true
                 }
             },

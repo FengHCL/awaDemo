@@ -39,7 +39,7 @@
     "id": "HamburgerMenu",
     "info": null,
     "iscustomlayout": false,
-    "isvisible": true,
+    "isvisible": false,
     "kuid": "c8466e1ac81e4efba6876bf5c978553c",
     "masterType": 1,
     "name": "kony.ui.UserWidgetInstance",
