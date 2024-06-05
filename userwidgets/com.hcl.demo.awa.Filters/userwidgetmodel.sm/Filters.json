@@ -1,10 +1,8 @@
 {
-    "@class": "com.kony.gen.viz.model.component.KVizImage2",
     "DNDConfig": null,
-    "_base64_": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "100%"
     },
     "_left_": {
         "type": "string",
@@ -16,38 +14,48 @@
         0,
         0
     ],
+    "_orientation_": 6,
     "_padding_": [
         0,
         0,
         0,
         0
     ],
-    "_skin_": "s862bbe232b34984869eff1b45455247",
-    "_src_": "heart.png",
+    "_percent_": true,
+    "_skin_": "s6893b8293e748b0975cf5997cab831e",
     "_top_": {
         "type": "string",
         "value": "0dp"
     },
     "_width_": {
         "type": "string",
-        "value": "40dp"
+        "value": "100%"
     },
+    "allboxes": [],
+    "autogrowmode": 0,
     "canUpdateUI": true,
+    "children": [
+        "flxContent",
+        "flxCover"
+    ],
+    "clipbounds": false,
     "containerweight": 100,
-    "id": "imgLike",
-    "imagescalemode": 1,
+    "enablescrolling": true,
+    "id": "Filters",
     "info": null,
-    "invokedProperty": "src",
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g2d94c07da6d4f0f930c9ef80b2547a8",
-    "name": "kony.ui.Image2",
-    "parent": "flxImg",
+    "kuid": "dfebc5e2c5bd407bb3badda04c99da89",
+    "layouttype": 2,
+    "name": "kony.ui.FlexContainer",
+    "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
-    "srcType": 1,
-    "wType": "Image",
-    "widgetalignment": 5,
+    "retainflowhorizontalalignment": false,
+    "snapgridsize": 10,
+    "snaptogrid": true,
+    "wType": "FlexContainer",
+    "widgetalignment": 1,
     "zindex": 1
 }

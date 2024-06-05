@@ -1,0 +1,25 @@
+{
+    "AS_TextField_ff52992c17f04e2db7fcdca88856185e": {
+        "id": "AS_TextField_ff52992c17f04e2db7fcdca88856185e",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "string",
+            "name": "changedtext"
+        }],
+        "language": "js",
+        "eventType": "onTextChange",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onTextChange_fa90874f527641ecb9650c08d64631b9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onVehicleSearch",
+            "display": "onVehicleSearch",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

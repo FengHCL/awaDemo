@@ -41,7 +41,8 @@
     "children": [
         "SimpleHeader",
         "flxContent",
-        "HamburgerMenu"
+        "HamburgerMenu",
+        "Filters"
     ],
     "containerweight": 100,
     "controllerInfo": {

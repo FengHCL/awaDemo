@@ -35,8 +35,8 @@
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "imgLike",
-        "imgLighting"
+        "lblLike",
+        "lblLightning"
     ],
     "clipbounds": false,
     "containerweight": 100,

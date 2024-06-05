@@ -1,12 +1,10 @@
 {
   "android": {
-    "font_name": "icomoon",
-    "font_size": 160,
-    "isForked": false
+    "font_name": "awaFont"
   },
   "androidwearos": {
     "font_name": "default",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "background_color": "00000000",
@@ -17,81 +15,91 @@
   "border_width": 0,
   "desktopweb": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "fontSizeInPx": false,
   "font_color": "ffffffff",
   "font_name": "iphoneSystem",
-  "font_size": 160,
+  "font_size": 120,
   "font_style": "normal",
   "font_weight": "400",
   "ipad": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "iphone": {
-    "font_name": "icomoon",
-    "font_size": 160,
+    "font_name": "awaFont",
+    "font_size": 120,
     "isForked": false
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "kuid": "sea4c705bf0b4ed294a5244c699bc3b0",
+  "nativemac": {
+    "font_name": "Helvetica",
+    "font_size": 120,
+    "isForked": false
+  },
+  "nativewin": {
+    "font_name": "Helvetica",
+    "font_size": 120,
+    "isForked": false
+  },
   "spaan": {
-    "font_name": "icomoon",
-    "font_size": 160,
+    "font_name": "awaFont",
+    "font_size": 120,
     "isForked": false
   },
   "spaandroidtablet": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "spaip": {
-    "font_name": "icomoon",
-    "font_size": 160,
+    "font_name": "awaFont",
+    "font_size": 120,
     "isForked": false
   },
   "spaipad": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "spawindowstablet": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "spawinphone8": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "tabrcandroid": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "wType": "Label",
   "watchos": {
     "font_name": "System",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "windows8": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   },
   "winphone8": {
     "font_name": "icomoon",
-    "font_size": 160,
+    "font_size": 120,
     "isForked": false
   }
 }

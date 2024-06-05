@@ -1,0 +1,21 @@
+{
+    "AS_ListBox_bb558576ed5a4784afd0dc882ecb272c": {
+        "id": "AS_ListBox_bb558576ed5a4784afd0dc882ecb272c",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onSelection",
+        "actions": [{
+            "id": "INVOKE_FUNCTION__ide_onSelection_c36fbf5bd7ac4e3db06bde14ed478948",
+            "type": "INVOKE_FUNCTION",
+            "display": "onVehicleSearch",
+            "inputparams": [],
+            "callbackType": null,
+            "disabled": null,
+            "source": "controller"
+        }]
+    }
+}

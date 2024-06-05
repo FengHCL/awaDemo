@@ -1,0 +1,17 @@
+{
+    "AS_Button_i843392e7fe547bd80dbb473faeabb33": {
+        "id": "AS_Button_i843392e7fe547bd80dbb473faeabb33",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "language": "js",
+        "eventType": "onClick",
+        "actions": [{
+            "id": "ADD_SNIPPET_ide_onClick_be2c871199f44a18bf8ec72ffa55a675",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "this.view.lstFrom.selectedKey = \"From\";\nthis.view.lstLocation.selectedKey = \"Location\";\nthis.view.lstMake.selectedKey = \"Make\";\nthis.view.lstModel.selectedKey = \"Model\";\nthis.view.lstTo.selectedKey = \"to\";\nthis.view.lstType.selectedKey = \"Type\";\nthis.view.txtKeyword.text = \"\";\nthis.view.txtLot.text = \"\";\nthis.view.txtMileageFrom.text = \"\";\nthis.view.txtMileageTo.text = \"\";\nthis.view.segVehicles.setData(gv_vechicleTable);"
+        }]
+    }
+}

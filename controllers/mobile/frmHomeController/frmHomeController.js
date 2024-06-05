@@ -11,6 +11,7 @@ define({
     this.view.preShow = () => {
       //voltmx.application.showLoadingScreen(null, 'Loading data...', constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, false, {});
     this.view.SimpleHeader.onClickLeft = () => this.view.HamburgerMenu.toggle(true); 
+    this.view.SimpleHeader.onClickRight = () => this.view.Filters.isVisible = true;
     this.initData(); 
     };
   },

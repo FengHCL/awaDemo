@@ -7,7 +7,7 @@
     },
     "_left_": {
         "type": "string",
-        "value": "0%"
+        "value": "0dp"
     },
     "_margin_": [
         0,
@@ -21,11 +21,11 @@
         0,
         0
     ],
-    "_placeholder_": "",
-    "_skin_": "s9acaadacc3c4fe984054f4a35e808a1",
+    "_placeholder_": "Select Bid",
+    "_skin_": "saeb6fe45fa84fb2a2a223d73d2df4f7",
     "_top_": {
         "type": "string",
-        "value": "5dp"
+        "value": "0%"
     },
     "_width_": {
         "type": "string",
@@ -33,47 +33,35 @@
     },
     "canUpdateUI": true,
     "containerweight": 100,
-    "contentalignment": 4,
+    "contentalignment": 5,
     "dropdownimage": "red.png",
     "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
     "groupcells": false,
-    "i18n_placeholder": null,
     "id": "lstBid",
     "info": null,
-    "inputAccessoryViewType": 4,
-    "iphone": {
-        "psp": {
-            "i18n_placeholder": null
-        },
-        "viewType": 0
-    },
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "g5bded5fbaa94136a1690d5cdd30782c",
+    "kuid": "ac381190aa9946bcb65c4f98b0a706ae",
     "masterdata": [
         [
-            "BID",
-            "Select Bid"
-        ],
-        [
-            "200",
-            "200"
-        ],
-        [
-            "500",
-            "500"
+            "bid",
+            "Select Bid",
+            "lstBid"
         ],
         [
             "1000",
-            "1,000"
+            "1,000",
+            "lst1000"
         ],
         [
-            "3000",
-            "3,000"
+            "2000",
+            "2,000",
+            "lst2000"
         ],
         [
             "5000",
-            "5,000"
+            "5,000",
+            "lst5000"
         ]
     ],
     "name": "kony.ui.ListBox",
@@ -81,11 +69,14 @@
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
+    "selectedkey": "bid",
     "selectedkeys": null,
-    "selectedkeyvalue": null,
+    "selectedkeyvalue": [
+        "bid",
+        "Select Bid"
+    ],
     "selectedkeyvalues": null,
     "size": 18,
-    "untickedimage": "redtriangle.png",
     "viewconfig": {
         "toggleViewConfig": {
             "viewStyle": 0
