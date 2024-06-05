@@ -1,8 +1,12 @@
 {
     "DNDConfig": null,
+    "_bottom_": {
+        "type": "number",
+        "value": "2"
+    },
     "_height_": {
-        "type": "string",
-        "value": "120dp"
+        "type": "ref",
+        "value": "preferred"
     },
     "_left_": {
         "type": "string",
@@ -32,7 +36,7 @@
         "value": "98%"
     },
     "allboxes": [],
-    "autogrowmode": 0,
+    "autogrowmode": 1,
     "canUpdateUI": true,
     "children": [
         "lblVehicleName",

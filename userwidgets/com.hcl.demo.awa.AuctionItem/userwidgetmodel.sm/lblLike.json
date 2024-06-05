@@ -35,6 +35,10 @@
         }
     },
     "canUpdateUI": true,
+    "centerx": {
+        "type": "string",
+        "value": "50%"
+    },
     "centery": {
         "type": "string",
         "value": "50%"
@@ -57,7 +61,7 @@
     "isvisible": true,
     "kuid": "e1e7e786147c4897925433e3d04f9277",
     "name": "kony.ui.Label",
-    "parent": "flxImg",
+    "parent": "flxLike",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,

@@ -1,6 +1,6 @@
 {
   "android": {
-    "font_name": "default"
+    "font_name": "awaFont"
   },
   "androidwearos": {
     "font_name": "default"
@@ -23,21 +23,27 @@
     "font_name": "System"
   },
   "iphone": {
-    "font_name": "System"
+    "font_name": "awaFont"
   },
   "isDefaultSkin": false,
   "kiosk": {
     "font_name": "None"
   },
   "kuid": "saa8d4e57ad7484880b3ca2165ccde3d",
-  "spaan": {
+  "nativemac": {
     "font_name": "Helvetica"
+  },
+  "nativewin": {
+    "font_name": "Helvetica"
+  },
+  "spaan": {
+    "font_name": "awaFont"
   },
   "spaandroidtablet": {
     "font_name": "Helvetica"
   },
   "spaip": {
-    "font_name": "Helvetica"
+    "font_name": "awaFont"
   },
   "spaipad": {
     "font_name": "Helvetica"

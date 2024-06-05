@@ -1,15 +1,13 @@
 define({ 
 
-  cars: [],
-
   onViewCreated(){
     this.view.init = () => {
       this.view.SimpleHeader.onClickLeft = () => this.view.HamburgerMenu.toggle(true); 
       this.view.SimpleHeader.onClickRight = () => this.view.Filters.isVisible = true;
+      this.initData(); 
     };
 
     this.view.preShow = () => {
-      this.initData(); 
     };
   },
 

@@ -29,26 +29,25 @@
     },
     "_width_": {
         "type": "string",
-        "value": "100%"
+        "value": "30dp"
     },
     "allboxes": [],
     "autogrowmode": 0,
     "canUpdateUI": true,
     "children": [
-        "flxLike",
-        "flxLightning"
+        "lblLightning"
     ],
     "clipbounds": false,
     "containerweight": 100,
     "enablescrolling": true,
-    "id": "flxImg",
+    "id": "flxLightning",
     "info": null,
     "iscustomlayout": false,
     "isvisible": true,
-    "kuid": "fbd3e935e45541448d99ad8c746d53b4",
+    "kuid": "d9f77218516348df9ac53a7a1558996f",
     "layouttype": 3,
     "name": "kony.ui.FlexContainer",
-    "parent": "flxButtons",
+    "parent": "flxImg",
     "pf": "userwidgetmodel",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
@@ -56,6 +55,5 @@
     "snapgridsize": 10,
     "snaptogrid": true,
     "wType": "FlexContainer",
-    "widgetalignment": 1,
-    "zindex": 1
+    "widgetalignment": 1
 }

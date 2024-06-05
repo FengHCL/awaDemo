@@ -11,7 +11,7 @@
                 {
                     "access": "Enable",
                     "group": "General",
-                    "kuid": "ed196f73b45141eea5e2b9d959e776f4",
+                    "kuid": "ec96b5fb95274a8b8adb9683eb13eb73",
                     "originalPropertyKey": "onClick",
                     "propertyIndex": 1,
                     "propertyKey": "onClickCar",
@@ -19,12 +19,12 @@
                         "access": "readwrite",
                         "category": "action",
                         "displayName": "onClickCar",
-                        "srcWidget": "flxGroup",
+                        "srcWidget": "flxImage",
                         "type": "action",
                         "uiRepresentation": "Label-Label-Button-Button",
                         "wType": "FlexContainer"
                     },
-                    "srcWgtKUID": "u88e59972a7b4af190d9ce3cbf24f7af",
+                    "srcWgtKUID": "u4234248a5414cdf8297f31d93fc9507",
                     "translateAtInstance": false
                 }
             ]
