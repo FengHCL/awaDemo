@@ -1,5 +1,8 @@
 define({ 
 
- //Type your controller code here 
-
- });
+	onViewCreated(){
+      this.view.preShow = () => {
+        alert(this.navigationContext);
+      };
+    }
+});
