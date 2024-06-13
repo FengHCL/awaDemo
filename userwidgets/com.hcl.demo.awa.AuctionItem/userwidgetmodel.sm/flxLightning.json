@@ -2,11 +2,11 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "30dp"
+        "value": "20dp"
     },
     "_left_": {
         "type": "string",
-        "value": "0dp"
+        "value": "15dp"
     },
     "_margin_": [
         0,
@@ -29,7 +29,7 @@
     },
     "_width_": {
         "type": "string",
-        "value": "30dp"
+        "value": "20dp"
     },
     "allboxes": [],
     "autogrowmode": 0,

@@ -14,6 +14,9 @@ define({
       const uid = this.navigationContext.uid;
       const car = globals.getCarById(uid);
       this.view.cmpSimpleHeader.title = car.vehicleName;
+      this.view.lblVehicleName.text = car.vehicleName;
+      this.view.lblUIDValue.text = car.vehicleID;
+      this.view.lblValue.text = formatValue(car.value.toString());
       const pics = globals.getPicsForCar(uid);
       this.view.cmpCarousel.base64 = pics[0].pic;
       this.view.cmpCarousel.removeAll();

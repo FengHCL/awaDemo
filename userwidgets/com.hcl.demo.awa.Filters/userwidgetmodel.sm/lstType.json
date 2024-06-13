@@ -25,7 +25,7 @@
     "_skin_": "saeb6fe45fa84fb2a2a223d73d2df4f7",
     "_top_": {
         "type": "string",
-        "value": "2%"
+        "value": "2.00%"
     },
     "_width_": {
         "type": "string",
@@ -34,12 +34,12 @@
     "canUpdateUI": true,
     "centerx": {
         "type": "string",
-        "value": "50%"
+        "value": "50.00%"
     },
     "containerweight": 100,
     "contentalignment": 4,
     "dropdownimage": "red.png",
-    "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
+    "focusskin": "s1260d5f6b4d405786ecc704319af310",
     "groupcells": false,
     "id": "lstType",
     "info": null,

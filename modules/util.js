@@ -11,3 +11,10 @@ function formatValue(value) {
   }
   return value;
 }
+  
+function parseValue(value) {
+  if (value.length > 3) {
+    value = value.replace(/,/g, '');
+  }
+  return value;
+}

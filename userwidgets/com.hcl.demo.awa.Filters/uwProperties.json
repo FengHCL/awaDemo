@@ -7,7 +7,27 @@
         },
         "events": {
             "custom": [],
-            "passthrough": []
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "f4cfc0e78fd34deb98b418bd1047e956",
+                    "originalPropertyKey": "onSelection",
+                    "propertyIndex": 1,
+                    "propertyKey": "onLocationSelection",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "action",
+                        "displayName": "onLocationSelection",
+                        "srcWidget": "lstLocation",
+                        "type": "action",
+                        "uiRepresentation": "Label-Label-Button-Button",
+                        "wType": "ListBox"
+                    },
+                    "srcWgtKUID": "a61ee3dda4a74592a7644aedbdb5b5f1",
+                    "translateAtInstance": false
+                }
+            ]
         },
         "groups": {
             "apis": [],
@@ -16,7 +36,25 @@
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "",
+                    "group": "General",
+                    "kuid": "e0e57cdc27714c9781980da005bb8ae7",
+                    "originalPropertyKey": "selectedLocation",
+                    "propertyIndex": 1,
+                    "propertyKey": "selectedLocation",
+                    "pw": {
+                        "dependencyConditions": {},
+                        "displayName": "selectedLocation",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "dfebc5e2c5bd407bb3badda04c99da89",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": []
         },
         "widgets": {

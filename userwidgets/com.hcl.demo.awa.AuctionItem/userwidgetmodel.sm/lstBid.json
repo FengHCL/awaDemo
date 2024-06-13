@@ -3,7 +3,7 @@
     "DNDConfig": null,
     "_height_": {
         "type": "string",
-        "value": "40dp"
+        "value": "30dp"
     },
     "_left_": {
         "type": "string",
@@ -25,17 +25,17 @@
     "_skin_": "saeb6fe45fa84fb2a2a223d73d2df4f7",
     "_top_": {
         "type": "string",
-        "value": "2dp"
+        "value": "5dp"
     },
     "_width_": {
         "type": "string",
-        "value": "100dp"
+        "value": "120dp"
     },
     "canUpdateUI": true,
     "containerweight": 100,
     "contentalignment": 5,
     "dropdownimage": "red.png",
-    "focusskin": "sa8440440ea244128b4fc716ca66d1f0",
+    "focusskin": "s65d428eaeea4c2dbb9099a67d86135c",
     "groupcells": false,
     "id": "lstBid",
     "info": null,
@@ -47,6 +47,16 @@
             "bid",
             "Select Bid",
             "lstBid"
+        ],
+        [
+            "200",
+            "200",
+            "lst200"
+        ],
+        [
+            "500",
+            "500",
+            "lst500"
         ],
         [
             "1000",

@@ -9,7 +9,13 @@ define(function() {
     },
     //Logic for getters/setters of custom properties
     initGettersSetters: function() {
-
+      defineGetter(this, 'selectedLocation', () => {
+        this._selectedLocation = this.view.lstLocation.selectedKey;
+        return this._selectedLocation;
+      });
+      defineSetter(this, 'selectedLocation', value => {
+        this._selectedLocation = value;
+      });
     }
   };
 });

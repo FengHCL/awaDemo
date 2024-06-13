@@ -4,6 +4,7 @@ define({
     this.view.init = () => {
       this.view.SimpleHeader.onClickLeft = () => this.view.HamburgerMenu.toggle(true); 
       this.view.SimpleHeader.onClickRight = () => this.view.Filters.isVisible = true;
+      this.view.Filters.onLocationSelection = () =>{this.onSearch();}; 
       this.initData(); 
     };
 
@@ -24,7 +25,7 @@ define({
       const picObj = new voltmx.sdk.dto.DataObject("vehiclepics");
       objSvc.fetch({dataObject: picObj}, (responsePics) => {
         globals.pics = [...responsePics.records];
-        this.initWidgets();
+        this.initWidgets(globals.cars);
         voltmx.application.dismissLoadingScreen();
       }, (errorPics) => {
         voltmx.application.dismissLoadingScreen();
@@ -35,9 +36,18 @@ define({
       alert(JSON.stringify(errorVehicles));
     });
   },
+  
+  onSearch(){
+    if(this.view.Filters.selectedLocation !== "Location"){
+      this.initWidgets(globals.getCarByLocation(this.view.Filters.selectedLocation));
+    }else{
+      this.initWidgets(globals.cars);
+    }
+  },
 
-  initWidgets(){
-    globals.cars.forEach((car, index) => {
+  initWidgets(cars){
+    this.view.flxCars.removeAll();
+    cars.forEach((car, index) => {
       const auctionItem = new com.hcl.demo.awa.AuctionItem({
         id: `item${index}${new Date().getTime()}`
       }, {}, {});

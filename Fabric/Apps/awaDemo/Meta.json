@@ -3,6 +3,11 @@
   "subType" : "customapp",
   "description" : "awaDemo",
   "version" : "1.0",
+  "intSvcs" : [ {
+    "name" : "awaTranslations",
+    "version" : "1.0",
+    "etag" : "c6cc2bf1-c254-4024-8468-f70bfc7d65b3"
+  } ],
   "objectSvcs" : [ {
     "name" : "awaObject",
     "version" : "1.0",
