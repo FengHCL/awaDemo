@@ -8,28 +8,28 @@ define({
 
         function INVOKE_SERVICE_a62cec9aac6944af84636786aa9f7c8e_Callback(vehicle) {
             voltmx.application.dismissLoadingScreen();
-            var tempCollection6997 = [];
-            var tempData1812 = vehicle.records;
-            for (var each756 in tempData1812) {
-                tempCollection6997.push({
+            var tempCollection3960 = [];
+            var tempData7432 = vehicle.records;
+            for (var each4379 in tempData7432) {
+                tempCollection3960.push({
                     "lblVehicleName": {
-                        "text": tempData1812[each756]["vehicleName"]
+                        "text": tempData7432[each4379]["vehicleName"]
                     },
                     "lblMileage": {
-                        "text": voltmx.visualizer.toString(tempData1812[each756]["millage"])
+                        "text": voltmx.visualizer.toString(tempData7432[each4379]["millage"])
                     },
                     "lblValue": {
-                        "text": voltmx.visualizer.toString(tempData1812[each756]["value"])
+                        "text": voltmx.visualizer.toString(tempData7432[each4379]["value"])
                     },
                     "lblID": {
-                        "text": tempData1812[each756]["vehicleID"]
+                        "text": tempData7432[each4379]["vehicleID"]
                     },
                     "lblBids": {
-                        "text": voltmx.visualizer.toString(tempData1812[each756]["bids"])
+                        "text": voltmx.visualizer.toString(tempData7432[each4379]["bids"])
                     },
                 });
             }
-            self.view.segVehicles.setData(tempCollection6997);
+            self.view.segVehicles.setData(tempCollection3960);
         }
         voltmx.application.showLoadingScreen(null, null, constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
         if (vehicle_inputparam == undefined) {

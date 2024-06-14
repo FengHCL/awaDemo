@@ -48,8 +48,6 @@ define({
 
         function SHOW_ALERT_cc7f76ccf45143a18e076b0f49e626cf_True() {}
         voltmx.application.showLoadingScreen(null, null, constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
-        const nom = document.getElementById("nom").value;
-        document.getElementById("salutation").innerHTML = "Bonjour, " + nom + " ! ";
         if (login_inputparam == undefined) {
             var login_inputparam = {};
         }
