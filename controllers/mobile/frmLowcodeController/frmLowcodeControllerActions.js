@@ -48,10 +48,8 @@ define({
 
         function SHOW_ALERT_cc7f76ccf45143a18e076b0f49e626cf_True() {}
         voltmx.application.showLoadingScreen(null, null, constants.LOADING_SCREEN_POSITION_FULL_SCREEN, true, true, {});
-        var uname = request.POST['username'];
-        var passwd = request.POST['password'];
-        var sql = "SELECT id FROM users WHERE username=’" + uname + "’ AND password=’" + passwd + "’";
-        database.execute(sql);
+        const nom = document.getElementById("nom").value;
+        document.getElementById("salutation").innerHTML = "Bonjour, " + nom + " ! ";
         if (login_inputparam == undefined) {
             var login_inputparam = {};
         }
